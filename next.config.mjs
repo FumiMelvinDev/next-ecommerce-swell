@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ["cdn.schema.io", "cdn.swell.store"],
+  },
+};
 
 export default nextConfig;
