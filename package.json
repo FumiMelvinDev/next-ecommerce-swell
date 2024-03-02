@@ -17,6 +17,7 @@
     "swell-js": "^4.0.4"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10.0.1",
     "clsx": "^2.1.0",
     "eslint": "^8",

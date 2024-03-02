@@ -1,4 +1,4 @@
-import { getCategories } from "@/lib/products";
+import { getCategories } from "@/lib/swell/products";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
