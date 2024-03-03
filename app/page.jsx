@@ -1,4 +1,5 @@
 import Categories from "./components/products/Categories";
+import ProductDetails from "./components/products/ProductDetails";
 
 function Page() {
   return (

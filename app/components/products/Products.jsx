@@ -10,7 +10,11 @@ async function Products({ products = [], categories = [] }) {
 
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
-            <Link key={product.id} href={product.slug} hreclassName="group">
+            <Link
+              key={product.id}
+              href={`/products/${product.slug}`}
+              hreclassName="group"
+            >
               <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64 border p-2">
                 <Image
                   alt={product.name}
