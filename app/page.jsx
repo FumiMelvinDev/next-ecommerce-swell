@@ -1,9 +1,8 @@
 import Categories from "./components/products/Categories";
-import ProductDetails from "./components/products/ProductDetails";
 
 function Page() {
   return (
-    <main className="py-12 bg-gray-100">
+    <main className="py-12 bg-[#FFF3F0]">
       <Categories />
     </main>
   );

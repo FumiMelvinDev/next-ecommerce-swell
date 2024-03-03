@@ -25,7 +25,7 @@ function Product({ product }) {
   }, [product, originalPrice]);
 
   return (
-    <section className="py-24">
+    <section className="py-12">
       <div className="container">
         <button
           className="-mt-10 mb-10 flex items-center gap-2 text-stone-400 hover:text-stone-900 dark:hover:text-stone-200"
